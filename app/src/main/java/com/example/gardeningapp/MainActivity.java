@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                        break;
                    case R.id.profile:
                        Toast.makeText(getApplicationContext(), "Profile", Toast.LENGTH_SHORT).show();
+                       Intent intent=new Intent(MainActivity.this,ProfileActivity.class);
+                       startActivity(intent);
                        break;
                }
                return true;

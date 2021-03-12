@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top"
         android:background="@color/design_default_color_primary_dark"
-        android:backgroundTint="@color/purple_200"
+        android:backgroundTint="@color/green"
         android:title="Gardening App" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@color/purple_200"
+        android:background="@color/green"
         app:itemTextColor="@color/black"
         app:menu="@menu/menu_bar" />
 
