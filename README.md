@@ -10,4 +10,9 @@
 ## Mar 12 | 2021
     add login # done ; Debarshi
     add layouts
+    add home screen 
+    change app color 
+    add dark theme
+    add material theme 
+    
     
