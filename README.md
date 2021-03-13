@@ -1,6 +1,6 @@
 # Gardening Community
 --------------------
-#Contributors
+# Contributors
 ## Rituraj Das, Debarshi Mitra, Saikat Karmakar
 
 # Date: March 9 | 2021
