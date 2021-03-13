@@ -1,6 +1,7 @@
 # Gardening Community
 
-# Rituraj Das, Debarshi Mitra, Saikat Karmakar
+#Contributors
+##Rituraj Das, Debarshi Mitra, Saikat Karmakar
 
 # Date: March 9 | 2021
 
@@ -8,7 +9,7 @@
 
 ***Todo***
 ## Mar 12 | 2021
-    add login # done ; Debarshi
+    add login # done;Debarshi 12 th march 
     add layouts
     add home screen 
     change app color 
