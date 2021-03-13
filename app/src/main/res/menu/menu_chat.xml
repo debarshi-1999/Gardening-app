@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Call"
+        android:id="@+id/call"
+        android:icon="@drawable/ic_baseline_phone_24"
+        app:showAsAction="always"/>
+    <item
+        android:title="Video"
+        android:id="@+id/video"
+        android:icon="@drawable/ic_baseline_videocam_24"
+        app:showAsAction="always"/>
+    <item
+        android:title="View contact"
+        android:id="@+id/contact"/>
+    <item
+        android:title=" Change Wallpaper"
+        android:id="@+id/wallpaper"/>
+    <item
+        android:title="More">
+        <menu>
+            <item
+                android:title="Block" />
+            <item
+                android:title="Clear chat"/>
+        </menu>
+
+    </item>
+
+</menu>

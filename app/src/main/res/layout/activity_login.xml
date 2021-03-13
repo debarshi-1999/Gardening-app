@@ -34,16 +34,19 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/login_edit"
         android:elevation="20dp"/>
+
     <EditText
+        android:id="@+id/psd"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        android:padding="10dp"
-        android:drawableStart="@drawable/ic_baseline_lock_24"
-        android:drawablePadding="10dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/login_edit"
-        android:elevation="20dp"/>
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:elevation="20dp"
+        android:hint="Password"
+        android:padding="10dp"
+        android:password="true" />
     <Button
         android:id="@+id/btn"
         android:layout_width="wrap_content"

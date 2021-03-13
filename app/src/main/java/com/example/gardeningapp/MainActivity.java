@@ -62,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
         }
         else if(id == R.id.chat){
             Toast.makeText(getApplicationContext(),"Send message",Toast.LENGTH_SHORT).show();
+            Intent intent=new Intent(MainActivity.this,Chat.class);
+            startActivity(intent);
         }
         return true;
     }

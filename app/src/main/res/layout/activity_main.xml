@@ -10,8 +10,9 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/tool"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="?attr/actionBarSize"
         android:layout_gravity="top"
+        app:menu="@menu/menu_top"
         android:background="@color/design_default_color_primary_dark"
         android:backgroundTint="@color/green"
         android:title="Gardening App" />

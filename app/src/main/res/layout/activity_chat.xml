@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chatWall"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Chat">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="top"
+        app:menu="@menu/menu_chat"
+        android:foregroundGravity="right"
+        android:background="@color/design_default_color_primary_dark"
+        android:backgroundTint="@color/green"
+        android:title="Gardening App" >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_person_24"
+            android:padding="10dp"
+            app:civ_border_width="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Person's Name"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="2dp"/>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/login_edit"
+            android:elevation="10dp"
+            android:gravity="bottom"
+            android:hint="Type a message"
+            android:padding="15dp"
+            android:textColor="@color/black" />
+       <com.google.android.material.floatingactionbutton.FloatingActionButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@color/green"
+           android:padding="5dp"
+           android:layout_marginBottom="3dp"
+           android:layout_gravity="bottom"
+           android:src="@drawable/ic_baseline_send"/>
+    </LinearLayout>
+</LinearLayout>
