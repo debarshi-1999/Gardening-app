@@ -2,14 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/chatWall"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
     tools:context=".Chat">
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/tool"
+        android:id="@+id/tool1"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_gravity="top"
@@ -18,6 +17,13 @@
         android:background="@color/design_default_color_primary_dark"
         android:backgroundTint="@color/green"
         android:title="Gardening App" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+            android:layout_margin="0dp"
+            android:padding="0dp"/>
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="60dp"
             android:layout_height="match_parent"
@@ -28,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Person's Name"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:gravity="center"
             android:padding="2dp"/>
     </androidx.appcompat.widget.Toolbar>
@@ -36,6 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
+        android:id="@+id/chatWall"
         android:gravity="bottom">
 
         <EditText

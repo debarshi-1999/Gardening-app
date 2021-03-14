@@ -17,7 +17,7 @@
         android:id="@+id/contact"/>
     <item
         android:title=" Change Wallpaper"
-        android:id="@+id/wallpaper"/>
+        android:id="@+id/wallpaper" />
     <item
         android:title="More">
         <menu>
