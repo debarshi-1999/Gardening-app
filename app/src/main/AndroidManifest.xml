@@ -14,6 +14,8 @@
         android:theme="@style/Theme.GardeningApp">
         <activity android:name=".Chat"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".SearchActivity"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".MainActivity">
         </activity>
         <activity

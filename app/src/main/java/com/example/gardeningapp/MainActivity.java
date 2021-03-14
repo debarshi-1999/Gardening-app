@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
                        break;
                    case R.id.search:
                        Toast.makeText(getApplicationContext(), "search", Toast.LENGTH_SHORT).show();
+                       Intent intent1=new Intent(MainActivity.this,SearchActivity.class);
+                       startActivity(intent1);
                        break;
                    case R.id.forum:
                        Toast.makeText(getApplicationContext(), "Discuss Forum", Toast.LENGTH_SHORT).show();
